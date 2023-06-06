@@ -1,0 +1,30 @@
+
+<div class="content">
+
+    <button routerLink="/crud-form" class="btn btn-primary text-center m-auto mt-5 d-flex justify-content-center">Add student</button>
+    
+    <div class="table">
+    
+        <table class="table table-striped   m-auto mt-5 border border-black">
+            <thead>
+              <tr>
+                <th scope="col">Id</th>
+                <th scope="col">Name</th>
+                <th scope="col">Percentage</th>
+                <th scope="col">Optional subject</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr *ngFor="let stud of student">
+                <th scope="row">{{stud.id}}</th>
+                <td>{{stud.name}}</td>
+                <td>{{stud.percentage}}</td>
+                <td>{{stud.optional_subject}}</td>
+                <td><button class="btn btn-danger" (click)="deletestudent(stud.id)">Delete</button></td>
+                <td><button class="btn btn-danger" (click)="Editstudent(stud.id)" >Edit</button></td>
+              </tr>
+              
+            </tbody>
+        </table>
+    </div>
+</div>

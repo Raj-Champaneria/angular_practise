@@ -1,0 +1,81 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "student": [
+    {
+      "name": "keval",
+      "percentage": "78",
+      "optional_subject": 1,
+      "id": 5
+    },
+    {
+      "name": "nn",
+      "percentage": "12",
+      "optional_subject": 1,
+      "id": 6
+    },
+    {
+      "name": "aa",
+      "percentage": "aa",
+      "optional_subject": 1,
+      "id": 9
+    },
+    {
+      "name": "qq",
+      "percentage": "qq",
+      "optional_subject": 1,
+      "id": 10
+    },
+    {
+      "name": "qaz",
+      "percentage": "qaaz",
+      "optional_subject": 1,
+      "id": 11
+    },
+    {
+      "name": "kk",
+      "percentage": "kk",
+      "optional_subject": 1,
+      "id": 12
+    },
+    {
+      "name": "aa",
+      "percentage": "aa",
+      "optional_subject": 1,
+      "id": 13
+    },
+    {
+      "name": "kk",
+      "percentage": "kk",
+      "optional_subject": 1,
+      "id": 14
+    },
+    {
+      "name": "ll",
+      "percentage": "ll",
+      "optional_subject": 1,
+      "id": 15
+    },
+    {
+      "name": "kkkkk",
+      "percentage": "kkkkk",
+      "optional_subject": 2,
+      "id": 16
+    }
+  ]
+}
